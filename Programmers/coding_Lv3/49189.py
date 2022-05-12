@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def solution(n, edge):
     table = [[] for _ in range(n + 1)]
     for ed in edge:
